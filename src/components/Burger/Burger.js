@@ -23,9 +23,8 @@ const Burger = (props) => {
 
     return (
         <div className='Burger'>
-            <p>This is Burger application</p>
+            <p>This is Updated Branch</p>
             <BurgerIngradiant type='bread-top' />
-            <p>This is updated branch</p>
             {transformedIngredients}
             <BurgerIngradiant type='bread-bottom' />
 
