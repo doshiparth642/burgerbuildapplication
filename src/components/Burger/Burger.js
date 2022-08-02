@@ -24,7 +24,7 @@ const Burger = (props) => {
     return (
         <div className='Burger'>
             <BurgerIngradiant type='bread-top' />
-            <p>Changes in new branch</p>
+            <p>Changes in master branch</p>
             {transformedIngredients}
             <BurgerIngradiant type='bread-bottom' />
 
