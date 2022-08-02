@@ -23,8 +23,13 @@ const Burger = (props) => {
 
     return (
         <div className='Burger'>
+<<<<<<< HEAD
             <BurgerIngradiant type='bread-top' />
             <p>Changes in master branch</p>
+=======
+            <p>This is Updated Branch</p>
+            <BurgerIngradiant type='bread-top' />
+>>>>>>> 'updatedBranchData'
             {transformedIngredients}
             <BurgerIngradiant type='bread-bottom' />
 
